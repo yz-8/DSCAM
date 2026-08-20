@@ -1,0 +1,29 @@
+name: Validate release
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate annotations
+        run: >-
+          python scripts/dataset/validate_annotations.py
+          data/annotations/instabind_lite_v0.4.json
+      - name: Regenerate questions
+        run: >-
+          python scripts/dataset/generate_questions.py
+          data/annotations/instabind_lite_v0.4.json
+          regenerated_questions.jsonl
+      - name: Compare generated questions
+        shell: bash
+        run: cmp regenerated_questions.jsonl data/questions/instabind_lite_v0.4_questions.jsonl
+      - name: Check release invariants
+        run: python tests/check_release.py
+

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+images/
+interventions/
+models/
+checkpoints/
+evaluation/*/*_detailed.csv
+scripts/runners/
+_verify/

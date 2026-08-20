@@ -1,0 +1,3 @@
+model,setting,level,total,accuracy,overall_mbr,error_conditioned_mbr,a_mbr,out_of_set_rate,invalid_rate,wrong
+llava-onevision-qwen2-7b-ov-hf,full_image,L1,1773,0.6728708403835307,0.18048505358150027,0.5517241379310345,0.784375,0.14664410603496897,0.0,580
+llava-onevision-qwen2-7b-ov-hf,full_image,L3,2488,0.6161575562700965,0.22347266881028938,0.5821989528795811,0.5089928057553957,0.16036977491961416,0.0,955

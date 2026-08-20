@@ -1,0 +1,152 @@
+[
+  {
+    "model": "Qwen2.5-VL-7B",
+    "source_subset": "all",
+    "total_questions": 4852,
+    "accuracy": "70.3",
+    "overall_mbr": "17.4",
+    "error_conditioned_mbr": "58.5",
+    "a_mbr": "84.0",
+    "out_of_set": "8.1"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "source_subset": "COCO",
+    "total_questions": 4102,
+    "accuracy": "70.4",
+    "overall_mbr": "17.8",
+    "error_conditioned_mbr": "60.0",
+    "a_mbr": "83.4",
+    "out_of_set": "7.5"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "source_subset": "non_coco",
+    "total_questions": 750,
+    "accuracy": "70.3",
+    "overall_mbr": "15.1",
+    "error_conditioned_mbr": "50.7",
+    "a_mbr": "87.6",
+    "out_of_set": "10.9"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "source_subset": "GQA",
+    "total_questions": 578,
+    "accuracy": "68.9",
+    "overall_mbr": "14.7",
+    "error_conditioned_mbr": "47.2",
+    "a_mbr": "89.4",
+    "out_of_set": "12.8"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "source_subset": "VAW",
+    "total_questions": 172,
+    "accuracy": "75.0",
+    "overall_mbr": "16.3",
+    "error_conditioned_mbr": "65.1",
+    "a_mbr": "82.1",
+    "out_of_set": "4.7"
+  },
+  {
+    "model": "InternVL3-8B",
+    "source_subset": "all",
+    "total_questions": 4852,
+    "accuracy": "69.0",
+    "overall_mbr": "20.0",
+    "error_conditioned_mbr": "64.6",
+    "a_mbr": "82.9",
+    "out_of_set": "8.3"
+  },
+  {
+    "model": "InternVL3-8B",
+    "source_subset": "COCO",
+    "total_questions": 4102,
+    "accuracy": "69.3",
+    "overall_mbr": "19.9",
+    "error_conditioned_mbr": "64.8",
+    "a_mbr": "82.1",
+    "out_of_set": "7.9"
+  },
+  {
+    "model": "InternVL3-8B",
+    "source_subset": "non_coco",
+    "total_questions": 750,
+    "accuracy": "67.3",
+    "overall_mbr": "20.7",
+    "error_conditioned_mbr": "63.3",
+    "a_mbr": "87.1",
+    "out_of_set": "10.3"
+  },
+  {
+    "model": "InternVL3-8B",
+    "source_subset": "GQA",
+    "total_questions": 578,
+    "accuracy": "65.9",
+    "overall_mbr": "21.5",
+    "error_conditioned_mbr": "62.9",
+    "a_mbr": "85.5",
+    "out_of_set": "10.6"
+  },
+  {
+    "model": "InternVL3-8B",
+    "source_subset": "VAW",
+    "total_questions": 172,
+    "accuracy": "72.1",
+    "overall_mbr": "18.0",
+    "error_conditioned_mbr": "64.6",
+    "a_mbr": "93.5",
+    "out_of_set": "9.3"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "source_subset": "all",
+    "total_questions": 4852,
+    "accuracy": "51.6",
+    "overall_mbr": "33.2",
+    "error_conditioned_mbr": "68.6",
+    "a_mbr": "79.0",
+    "out_of_set": "9.5"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "source_subset": "COCO",
+    "total_questions": 4102,
+    "accuracy": "51.6",
+    "overall_mbr": "33.7",
+    "error_conditioned_mbr": "69.7",
+    "a_mbr": "78.8",
+    "out_of_set": "9.1"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "source_subset": "non_coco",
+    "total_questions": 750,
+    "accuracy": "51.5",
+    "overall_mbr": "30.5",
+    "error_conditioned_mbr": "62.9",
+    "a_mbr": "80.3",
+    "out_of_set": "11.5"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "source_subset": "GQA",
+    "total_questions": 578,
+    "accuracy": "51.4",
+    "overall_mbr": "28.9",
+    "error_conditioned_mbr": "59.4",
+    "a_mbr": "81.4",
+    "out_of_set": "12.1"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "source_subset": "VAW",
+    "total_questions": 172,
+    "accuracy": "51.7",
+    "overall_mbr": "36.0",
+    "error_conditioned_mbr": "74.7",
+    "a_mbr": "77.4",
+    "out_of_set": "9.3"
+  }
+]

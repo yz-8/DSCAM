@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use InstaBind-Lite, please cite the accompanying manuscript."
+title: "InstaBind-Lite: Diagnosing Dense Same-Class Attribute Misbinding in Large Vision-Language Models"
+type: software
+authors:
+  - family-names: Xu
+    given-names: Yuanzhi
+  - family-names: Gao
+    given-names: Qian
+  - family-names: Fan
+    given-names: Jun
+  - family-names: Ding
+    given-names: Guohui
+  - family-names: Yang
+    given-names: Zhenyu
+  - family-names: Xiao
+    given-names: Yuteng
+  - family-names: Lin
+    given-names: Sixue
+version: 0.4.0
+date-released: 2026-08-20
+repository-code: "https://github.com/yz-8/DSCAM"
+license: MIT
+

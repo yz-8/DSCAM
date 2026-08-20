@@ -1,0 +1,428 @@
+{
+  "full_metric_ci": [
+    {
+      "model": "Qwen2.5-VL-7B",
+      "setting": "full_image",
+      "metric": "accuracy",
+      "observed_pct": "70.34",
+      "ci95_low_pct": "68.98",
+      "ci95_high_pct": "71.68",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "setting": "full_image",
+      "metric": "overall_mbr",
+      "observed_pct": "17.35",
+      "ci95_low_pct": "16.30",
+      "ci95_high_pct": "18.43",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "setting": "full_image",
+      "metric": "a_mbr",
+      "observed_pct": "83.97",
+      "ci95_low_pct": "81.61",
+      "ci95_high_pct": "86.49",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "InternVL3-8B",
+      "setting": "full_image",
+      "metric": "accuracy",
+      "observed_pct": "69.00",
+      "ci95_low_pct": "67.62",
+      "ci95_high_pct": "70.36",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "InternVL3-8B",
+      "setting": "full_image",
+      "metric": "overall_mbr",
+      "observed_pct": "20.01",
+      "ci95_low_pct": "18.90",
+      "ci95_high_pct": "21.08",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "InternVL3-8B",
+      "setting": "full_image",
+      "metric": "a_mbr",
+      "observed_pct": "82.90",
+      "ci95_low_pct": "80.55",
+      "ci95_high_pct": "85.14",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "setting": "full_image",
+      "metric": "accuracy",
+      "observed_pct": "51.59",
+      "ci95_low_pct": "50.16",
+      "ci95_high_pct": "53.01",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "setting": "full_image",
+      "metric": "overall_mbr",
+      "observed_pct": "33.22",
+      "ci95_low_pct": "31.82",
+      "ci95_high_pct": "34.56",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "setting": "full_image",
+      "metric": "a_mbr",
+      "observed_pct": "79.03",
+      "ci95_low_pct": "77.13",
+      "ci95_high_pct": "81.14",
+      "n": 4852,
+      "bootstrap_iterations": 1000
+    }
+  ],
+  "intervention_gap_ci": [
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "box_guided - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "-0.09",
+      "ci95_low_pct": "-1.55",
+      "ci95_high_pct": "1.22",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "box_guided - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-1.08",
+      "ci95_low_pct": "-2.30",
+      "ci95_high_pct": "0.14",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "crop_oracle - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "4.78",
+      "ci95_low_pct": "2.86",
+      "ci95_high_pct": "6.89",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "crop_oracle - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-6.84",
+      "ci95_low_pct": "-8.58",
+      "ci95_high_pct": "-5.15",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "context_crop - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "5.95",
+      "ci95_low_pct": "3.98",
+      "ci95_high_pct": "7.78",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "context_crop - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-6.79",
+      "ci95_low_pct": "-8.67",
+      "ci95_high_pct": "-4.92",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "dim_non_target - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "-5.34",
+      "ci95_low_pct": "-7.08",
+      "ci95_high_pct": "-3.61",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "dim_non_target - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "2.11",
+      "ci95_low_pct": "0.56",
+      "ci95_high_pct": "3.66",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "box_guided - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "7.31",
+      "ci95_low_pct": "5.62",
+      "ci95_high_pct": "8.90",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "box_guided - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-7.22",
+      "ci95_low_pct": "-8.72",
+      "ci95_high_pct": "-5.76",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "crop_oracle - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "6.04",
+      "ci95_low_pct": "4.03",
+      "ci95_high_pct": "7.92",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "crop_oracle - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-8.95",
+      "ci95_low_pct": "-10.73",
+      "ci95_high_pct": "-7.12",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "context_crop - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "5.76",
+      "ci95_low_pct": "3.89",
+      "ci95_high_pct": "7.83",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "context_crop - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-6.94",
+      "ci95_low_pct": "-8.86",
+      "ci95_high_pct": "-5.11",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "dim_non_target - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "3.66",
+      "ci95_low_pct": "2.01",
+      "ci95_high_pct": "5.30",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "dim_non_target - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-5.48",
+      "ci95_low_pct": "-7.08",
+      "ci95_high_pct": "-3.98",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "box_guided - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "0.33",
+      "ci95_low_pct": "-1.27",
+      "ci95_high_pct": "1.78",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "box_guided - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "1.41",
+      "ci95_low_pct": "-0.28",
+      "ci95_high_pct": "2.86",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "crop_oracle - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "21.98",
+      "ci95_low_pct": "19.63",
+      "ci95_high_pct": "24.09",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "crop_oracle - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-21.27",
+      "ci95_low_pct": "-23.43",
+      "ci95_high_pct": "-19.12",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "context_crop - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "20.71",
+      "ci95_low_pct": "18.37",
+      "ci95_high_pct": "22.91",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "context_crop - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-19.40",
+      "ci95_low_pct": "-21.60",
+      "ci95_high_pct": "-17.29",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "dim_non_target - full_l1_l3",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "-0.94",
+      "ci95_low_pct": "-2.58",
+      "ci95_high_pct": "0.84",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "dim_non_target - full_l1_l3",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "1.55",
+      "ci95_low_pct": "-0.19",
+      "ci95_high_pct": "3.37",
+      "n_pairs": 2134,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    }
+  ],
+  "instance_first_gap_ci": [
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "instance_first - full_image",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "-2.74",
+      "ci95_low_pct": "-3.79",
+      "ci95_high_pct": "-1.73",
+      "n_pairs": 4852,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "comparison": "instance_first - full_image",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-1.30",
+      "ci95_low_pct": "-2.18",
+      "ci95_high_pct": "-0.37",
+      "n_pairs": 4852,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "instance_first - full_image",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "2.25",
+      "ci95_low_pct": "1.09",
+      "ci95_high_pct": "3.54",
+      "n_pairs": 4852,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "InternVL3-8B",
+      "comparison": "instance_first - full_image",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "-5.54",
+      "ci95_low_pct": "-6.60",
+      "ci95_high_pct": "-4.49",
+      "n_pairs": 4852,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "instance_first - full_image",
+      "metric": "accuracy_gap",
+      "observed_gap_pct": "-22.09",
+      "ci95_low_pct": "-23.66",
+      "ci95_high_pct": "-20.38",
+      "n_pairs": 4852,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": true
+    },
+    {
+      "model": "LLaVA-1.5-7B",
+      "comparison": "instance_first - full_image",
+      "metric": "mbr_gap",
+      "observed_gap_pct": "1.53",
+      "ci95_low_pct": "-0.04",
+      "ci95_high_pct": "3.07",
+      "n_pairs": 4852,
+      "bootstrap_iterations": 1000,
+      "sign_consistent": false
+    }
+  ]
+}

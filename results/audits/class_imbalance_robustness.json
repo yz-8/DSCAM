@@ -1,0 +1,200 @@
+[
+  {
+    "model": "Qwen2.5-VL-7B",
+    "subset": "all",
+    "classes": "all",
+    "total": 4852,
+    "accuracy": "70.3",
+    "overall_mbr": "17.4",
+    "error_conditioned_mbr": "58.5",
+    "a_mbr": "84.0",
+    "out_of_set": "8.1"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "subset": "person_only",
+    "classes": "person",
+    "total": 2590,
+    "accuracy": "75.1",
+    "overall_mbr": "14.6",
+    "error_conditioned_mbr": "58.6",
+    "a_mbr": "82.3",
+    "out_of_set": "6.9"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "subset": "car_only",
+    "classes": "car",
+    "total": 1120,
+    "accuracy": "65.1",
+    "overall_mbr": "19.9",
+    "error_conditioned_mbr": "57.0",
+    "a_mbr": "84.3",
+    "out_of_set": "9.7"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "subset": "person_car",
+    "classes": "car,person",
+    "total": 3710,
+    "accuracy": "72.1",
+    "overall_mbr": "16.2",
+    "error_conditioned_mbr": "58.0",
+    "a_mbr": "83.0",
+    "out_of_set": "7.8"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "subset": "non_person_car",
+    "classes": "bag,bottle,chair,cup,umbrella",
+    "total": 1142,
+    "accuracy": "64.7",
+    "overall_mbr": "21.1",
+    "error_conditioned_mbr": "59.8",
+    "a_mbr": "86.3",
+    "out_of_set": "9.0"
+  },
+  {
+    "model": "Qwen2.5-VL-7B",
+    "subset": "medium_support",
+    "classes": "bag,chair,cup,umbrella",
+    "total": 1126,
+    "accuracy": "64.7",
+    "overall_mbr": "21.0",
+    "error_conditioned_mbr": "59.5",
+    "a_mbr": "86.9",
+    "out_of_set": "9.1"
+  },
+  {
+    "model": "InternVL3-8B",
+    "subset": "all",
+    "classes": "all",
+    "total": 4852,
+    "accuracy": "69.0",
+    "overall_mbr": "20.0",
+    "error_conditioned_mbr": "64.6",
+    "a_mbr": "82.9",
+    "out_of_set": "8.3"
+  },
+  {
+    "model": "InternVL3-8B",
+    "subset": "person_only",
+    "classes": "person",
+    "total": 2590,
+    "accuracy": "73.7",
+    "overall_mbr": "15.8",
+    "error_conditioned_mbr": "59.8",
+    "a_mbr": "85.8",
+    "out_of_set": "8.2"
+  },
+  {
+    "model": "InternVL3-8B",
+    "subset": "car_only",
+    "classes": "car",
+    "total": 1120,
+    "accuracy": "64.5",
+    "overall_mbr": "24.4",
+    "error_conditioned_mbr": "68.6",
+    "a_mbr": "76.9",
+    "out_of_set": "7.4"
+  },
+  {
+    "model": "InternVL3-8B",
+    "subset": "person_car",
+    "classes": "car,person",
+    "total": 3710,
+    "accuracy": "70.9",
+    "overall_mbr": "18.4",
+    "error_conditioned_mbr": "63.1",
+    "a_mbr": "82.2",
+    "out_of_set": "8.0"
+  },
+  {
+    "model": "InternVL3-8B",
+    "subset": "non_person_car",
+    "classes": "bag,bottle,chair,cup,umbrella",
+    "total": 1142,
+    "accuracy": "62.9",
+    "overall_mbr": "25.4",
+    "error_conditioned_mbr": "68.4",
+    "a_mbr": "84.5",
+    "out_of_set": "9.2"
+  },
+  {
+    "model": "InternVL3-8B",
+    "subset": "medium_support",
+    "classes": "bag,chair,cup,umbrella",
+    "total": 1126,
+    "accuracy": "63.1",
+    "overall_mbr": "25.3",
+    "error_conditioned_mbr": "68.7",
+    "a_mbr": "84.2",
+    "out_of_set": "9.1"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "subset": "all",
+    "classes": "all",
+    "total": 4852,
+    "accuracy": "51.6",
+    "overall_mbr": "33.2",
+    "error_conditioned_mbr": "68.6",
+    "a_mbr": "79.0",
+    "out_of_set": "9.5"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "subset": "person_only",
+    "classes": "person",
+    "total": 2590,
+    "accuracy": "55.4",
+    "overall_mbr": "31.7",
+    "error_conditioned_mbr": "71.1",
+    "a_mbr": "81.2",
+    "out_of_set": "8.5"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "subset": "car_only",
+    "classes": "car",
+    "total": 1120,
+    "accuracy": "46.6",
+    "overall_mbr": "36.0",
+    "error_conditioned_mbr": "67.4",
+    "a_mbr": "73.2",
+    "out_of_set": "9.8"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "subset": "person_car",
+    "classes": "car,person",
+    "total": 3710,
+    "accuracy": "52.8",
+    "overall_mbr": "33.0",
+    "error_conditioned_mbr": "69.9",
+    "a_mbr": "78.6",
+    "out_of_set": "8.9"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "subset": "non_person_car",
+    "classes": "bag,bottle,chair,cup,umbrella",
+    "total": 1142,
+    "accuracy": "47.7",
+    "overall_mbr": "34.0",
+    "error_conditioned_mbr": "65.0",
+    "a_mbr": "80.4",
+    "out_of_set": "11.4"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "subset": "medium_support",
+    "classes": "bag,chair,cup,umbrella",
+    "total": 1126,
+    "accuracy": "47.7",
+    "overall_mbr": "33.9",
+    "error_conditioned_mbr": "64.9",
+    "a_mbr": "80.6",
+    "out_of_set": "11.5"
+  }
+]
